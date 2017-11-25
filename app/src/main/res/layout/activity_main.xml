@@ -5,12 +5,18 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context="com.example.ady.helloworldservice.MainActivity">
-
-    <ImageView
+    <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:id="@+id/path"
+        />
+
+    <ImageView
         android:id="@+id/deco"
-         />
+        android:layout_width="203dp"
+        android:layout_height="229dp"
+        />
 
 </LinearLayout>
